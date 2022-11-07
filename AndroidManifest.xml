@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ifam.amigopetfixo"
+    >
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <permission
+        android:name="com.company.app.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Amigo Pet"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.FiltroMapa"></activity>
+        <activity android:name=".activity.VisualizarPet" />
+        <activity android:name=".activity.Sobre" />
+        <activity android:name=".activity.PoliticaPrivacidade" />
+        <activity android:name=".activity.TermosUso" />
+        <activity android:name=".activity.Configuracao" />
+        <activity android:name=".activity.VisualizarEvento" />
+        <activity android:name=".activity.VisualizarDoacoesAdocoes" />
+        <activity android:name=".activity.Visualizar_perfil_usuario" />
+        <activity android:name=".activity.Adicionar_Evento" />
+        <activity android:name=".activity.Adicionar_Doacao" />
+        <activity android:name=".activity.Adicionar_Poste" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".activity.Editar_Pet" />
+        <activity
+            android:name=".activity.Tela_Editar_Usuario"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.LoginT" />
+        <activity android:name=".activity.Cadastro" />
+        <activity
+            android:name=".activity.Tela_principal"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Apresentacao" />
+    </application>
+
+</manifest>
