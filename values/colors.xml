@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAA50B</color>
+    <color name="colorPrimaryDark">@color/tt</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="branco_translucido">#82FFFFFF</color>
+    <color name="tt">#FBB515</color>
+    <color name="tg">#059DA8</color>
+    <color name="branco_translucidoo">#83FFFFFF</color>
+    <color name="ttt">#FAA50B</color>
+    <color name="linha">#FBB515</color>
+    <color name="invisivl">#1F000000</color>
+    <color name="linhaDesign">#97C6C5C5</color>
+</resources>
