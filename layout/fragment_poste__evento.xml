@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:tabBackground="@color/ttt"
+        app:tabGravity="center"
+        app:tabIndicatorColor="@color/design_default_color_on_secondary"
+        app:tabIndicatorGravity="bottom"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/design_default_color_on_secondary"
+        app:tabTextColor="@android:color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabPoste"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="                   Postes             " />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabEventos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="                    Eventos                     " />
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frameConteudo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="47dp"
+        tools:context=".Fragments.Poste_EventoFragment" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

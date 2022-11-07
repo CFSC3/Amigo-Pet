@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Configuracao">
+
+    <Button
+        android:id="@+id/sair"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttonshape1"
+        android:onClick="sair"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Sair"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/termosCondicoes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/buttonshape1"
+        android:gravity="left|center_vertical"
+        android:onClick="termosCondicoes"
+        android:paddingLeft="20dp"
+        android:shadowDx="0"
+        android:shadowDy="0"
+
+        android:shadowRadius="5"
+        android:text="Termos e Condições"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/politicaPrivacidade" />
+
+    <Button
+        android:id="@+id/politicaPrivacidade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/buttonshape1"
+        android:gravity="left|center_vertical"
+        android:onClick="politicaPrivacidade"
+        android:paddingLeft="20dp"
+        android:shadowDx="0"
+
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Política de Privacidade"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sobre" />
+
+    <Button
+        android:id="@+id/trocarSenha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/buttonshape1"
+        android:gravity="left|center_vertical"
+        android:onClick="trocarSenha"
+        android:paddingLeft="20dp"
+        android:shadowDx="0"
+
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Trocar senha"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarConf" />
+
+    <Button
+        android:id="@+id/sobre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/buttonshape1"
+        android:gravity="left|center_vertical"
+        android:onClick="sobre"
+        android:paddingLeft="20dp"
+        android:shadowDx="0"
+
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Sobre"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trocarSenha" />
+
+    <Button
+        android:id="@+id/excluir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/buttonshape1"
+        android:gravity="left|center_vertical"
+        android:onClick="excluir"
+        android:paddingLeft="20dp"
+        android:shadowDx="0"
+
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Excluir"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/termosCondicoes" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ttt"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageConfVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:onClick="voltar"
+        android:src="@drawable/ic_arrow_back_white_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarConf"
+        app:layout_constraintStart_toStartOf="@+id/toolbarConf"
+        app:layout_constraintTop_toTopOf="@+id/toolbarConf" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Configurações"
+        android:textColor="@color/branco"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarConf"
+        app:layout_constraintStart_toEndOf="@+id/imageConfVoltar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

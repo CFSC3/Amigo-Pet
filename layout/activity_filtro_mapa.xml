@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity.FiltroMapa">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarFiltroMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewFiltroMapa"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:gravity="center_vertical"
+        android:text="Filtro:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarFiltroMapa" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewPetVet"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewCasasOng"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPetVet"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFiltroMapa"
+        app:layout_constraintVertical_bias="0.16000003"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:src="@drawable/logo3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewCasasOng"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewTudo"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCasasOng"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPetVet"
+        android:src="@drawable/logo3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewTudo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/logo3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonTudo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCasasOng" />
+
+    <Button
+        android:id="@+id/buttonPetVet"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="#00FFFFFF"
+        android:drawableRight="@drawable/ic_filtrom"
+        android:elevation="0dp"
+        android:text="Pet Shops \nVeterinários"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCasasOng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPetVet"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFiltroMapa"
+        app:layout_constraintVertical_bias="0.16000003"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/buttonCasasOng"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="#00FFFFFF"
+        android:drawableRight="@drawable/ic_filtrom"
+        android:elevation="0dp"
+        android:text="Casas de adoção \n ONGs"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTudo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCasasOng"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPetVet" />
+
+    <Button
+        android:id="@+id/buttonTudo"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:background="#00FFFFFF"
+        android:drawableRight="@drawable/ic_filtrom"
+        android:elevation="0dp"
+        android:text="Todos"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewTudo"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCasasOng" />
+
+    <ImageView
+        android:id="@+id/imageViewLogoMapa"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_baseline_location_on_24"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarFiltroMapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbarFiltroMapa" />
+
+    <TextView
+        android:id="@+id/textViewApoio1"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#97C6C5C5"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPetVet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFiltroMapa" />
+
+    <TextView
+        android:id="@+id/textViewApoio2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#97C6C5C5"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCasasOng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPetVet" />
+
+    <TextView
+        android:id="@+id/textViewApoio3"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#97C6C5C5"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTudo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCasasOng" />
+
+    <TextView
+        android:id="@+id/textViewApoio4"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="#97C6C5C5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTudo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

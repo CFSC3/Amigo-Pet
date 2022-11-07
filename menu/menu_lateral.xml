@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editar_perfil"
+        android:title="Editar perfil"
+        android:icon="@drawable/ic_teste_black_24dp"
+        >
+    </item>
+
+    <item
+        android:id="@+id/configuracoes"
+        android:title="Configurações"
+        android:icon="@drawable/ic_teste_black_24dp"
+        />
+
+    <item
+        android:id="@+id/e"
+        android:title="Alguma coisa"
+        android:icon="@drawable/ic_teste_black_24dp"
+        />
+</menu>
