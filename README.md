@@ -13,23 +13,58 @@ O principal objeto da criação e do desenvolvimento do Amigo Pet será a adoç�
 ## :iphone: Layout 
 
 <p float="left">
-<img src="https://github.com/CFSC3/04-11/blob/main/imagens/inicial.jpg" width="200" height="350" style="float:left"/> 
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/1.jpg" width="200" height="350" style="float:left"/> 
   
-<img src="https://github.com/CFSC3/04-11/blob/main/imagens/apresentacao.jpg" width="200" height="350" height="350"/>
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/2.jpg" width="200" height="350" height="350"/>
 
-<img src="https://github.com/CFSC3/04-11/blob/main/imagens/musicaApresentacao.jpg" width="200" height="350" style="float:left"/>
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/2_1.jpg" width="200" height="350" style="float:left"/>
 
-<img src="https://github.com/CFSC3/04-11/blob/main/imagens/valeApresentacao.jpg" width="200" height="350" style="float:left"/> 
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/2_2.jpg" width="200" height="350" style="float:left"/> 
   
-<img src="https://github.com/CFSC3/04-11/blob/main/imagens/mapaApresentacao.jpg" width="200" height="350"/>
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/2_3.jpg" width="200" height="350"/>
 
-<img src="https://github.com/CFSC3/04-11/blob/main/imagens/musica.jpg" width="200" height="350" style="float:left"/> 
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/2_4.jpg" width="200" height="350" style="float:left"/> 
   
-<img src="https://github.com/CFSC3/04-11/blob/main/imagens/music.jpg" width="200" height="350"/>
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/2_5.jpg" width="200" height="350"/>
 
-<img src="https://github.com/CFSC3/04-11/blob/main/imagens/tickets.jpg" width="200" height="350"/>
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/2_6.jpg" width="200" height="350"/>
 
-<img src="https://github.com/CFSC3/04-11/blob/main/imagens/mapa.jpg" width="200" height="350"/>
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/3.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/4.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/5.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/6.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/7.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/8.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/9.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/10.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/11.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/12.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/13.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/14.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/15.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/16.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/17.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/18.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/19.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/20.jpg" width="200" height="350"/>
+
 </p>
 
 # :book: Linguagem
